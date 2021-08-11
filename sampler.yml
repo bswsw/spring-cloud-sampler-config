@@ -1,0 +1,8 @@
+token:
+  expiration: 86400000
+  secret: user_token_token_token
+
+gateway:
+  ip: 172.30.1.33
+
+sampler-common-property: "this is common property"
