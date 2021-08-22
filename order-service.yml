@@ -1,7 +1,7 @@
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/userdb?useSSL=false&useUnicode=true&characterEncoding=utf8
+    url: jdbc:mysql://localhost:3306/orderdb?useSSL=false&useUnicode=true&characterEncoding=utf8
     username: root
     password: '{cipher}AQA5sURQOdzI+0jef9Vale0nEQTMBtHOacHgWzR3q9HAPGofn44oCBIrQHug7Erk/UuVvFvAbd5uifHzy2QXW5zpx7xwtOCb2PTwZYw9j7bZriF0ZmZCdW+qMUiTLxpPWoK0h1SNvvQ+pV+a7QeJmK1QKP0HWhdK6eFcNK1qMUyqinntZUAtNkRD43GbTI37X3C1NvOC5EOeex07/SjUOsYaMC4ICY75Otb+NRra7hmxsNlSjq/dQRr6Xf8QbL2YdrIeVmk+TM7+2UUZ5X/ZIoGCNrx2g9o0AEs5f5koJt3xdUOgqOC+mxBQNg0KTwth6vUn5adFLJvahsIfzLNcWFaVxODS8f5u8pelzjDQMYNKDWjZBZK5uZWq2ibUiL8GEHs='
 
