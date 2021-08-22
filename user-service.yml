@@ -1,9 +1,9 @@
 spring:
   datasource:
-    driver-class-name: org.h2.Driver
-    url: jdbc:h2:mem:testdb
-    username: sa
-    password: '{cipher}AQBMKGPIN1d6cd6856U6jQgZP1UOW1AMmv67svkts1np1TFd6kG5cihvR6fcHbeb6LKmcyUMB+P4Y6lKzgr7pdj7Mb0q0MwxaLoN+h5ncbK35rfBGyQIzNTjORsv4n3Yzgr4cGIRur6S+LuvydoRP2KhE/xOSCZeJnq8ocy8J/CPeKOFlmm3Zoug0DJBYkMshv50x5v6c1DrBh3QnMyfa7yyEm5rAdFyOHGrtoY10CrZMZNM3eP1HL8ZPKKM9UNmOGlTW0Jp9gGhMdFS7UdAW/kyBw3qlHspWFWGD4HTMwFkRRs4J1pjYVBpPwhxwkjAmuMkofoR8uRk87hKqK/ytfPVGouhznGi/9uxcahC5rZFLIR1fpyHnNO5o2ipivOqJjM='
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/userdb?useSSL=false&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: password
 
 gateway:
   ip: 172.30.1.33
